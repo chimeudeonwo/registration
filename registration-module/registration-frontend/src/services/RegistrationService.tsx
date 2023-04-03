@@ -1,7 +1,6 @@
 const baseUrl = "http://localhost:8080/start-register";
 
 class RegistrationService {
-
     async startRegistration() {
         const response = await fetch(`${baseUrl}`,{
             method: "GET",
