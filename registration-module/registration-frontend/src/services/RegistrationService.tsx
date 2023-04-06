@@ -1,4 +1,4 @@
-const baseUrl = "http://localhost:8080/start-register";
+const baseUrl = "http://localhost:8080/api/start-register";
 
 class RegistrationService {
     async startRegistration() {
